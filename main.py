@@ -37,5 +37,5 @@ for child in root:
     y_pos = int(child.attrib.get("YPos"))
     width = int(child.attrib.get("Width"))
     height = int(child.attrib.get("Height"))
-    im_crop = image_file.crop((x_pos, y_pos, x_pos + width, y_pos + height))
+    im_crop = image_file.crop((x_pos, y_pos, x_pos + width - 1, y_pos + height - 1))
     im_crop.save(f"{result_dir}/{name}.{file_ext}", quality=100)
