@@ -1,5 +1,7 @@
 # Textures Cutter
 
+### [Русская версия README](https://github.com/proDreams/texture_cutter/blob/main/README-ru.md)
+
 ## Description:
 
 A program for cutting an image/texture into individual elements at specified coordinates, with a given size and name of
@@ -40,6 +42,7 @@ _Case of keys is not important_
 - `Pillow`
 
 ## Launch:
+
 1. Download the latest version: https://github.com/proDreams/texture_cutter/releases/latest
 2. Drag and drop the XML file onto the exe file of the program.
 3. A directory with the cut images will appear in the XML file directory.
